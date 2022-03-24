@@ -2,11 +2,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Carlos Alberto Miranda Ferreira
+- Matrícula: 16.2.8394
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 10
+- Link para o seu GitHub: [carlosalbertomf](https://github.com/carlosalbertomf)
 
 ## [Projeto final:](./Projeto/README.md)
 
