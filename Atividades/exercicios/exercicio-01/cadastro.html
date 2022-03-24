@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="br" dir="auto">
+<!-- or ltr - left to right -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de pessoas</title>
+</head>
+
+<body>
+
+    <h1>Dados do cadastro da pessoa</h1>
+
+    <form method="post" action="validar.html">
+
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Nome da pessoa">
+        </div>
+
+        <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco">
+        </div>
+
+        <div>
+            <label>Genero:</label>
+
+            <div>
+                <input type="radio" name="genero" id="feminino" value="f">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="masculino" value="m">
+                <label for="masculino">Masculino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="naobinario" value="nb">
+                <label for="naobinario">Não Binário</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="semresposta" value="sr">
+                <label for="semresposta">Não informar</label>
+            </div>
+
+        </div>
+
+        <div>
+            <label>Áreas de interesse</label>
+
+            <div>
+                <input type="checkbox" name="web" id="web">
+                <label>Sistemas WEB</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="db" id="db">
+                <label>Banco de dados</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="redes" id="redes">
+                <label>Redes</label>
+            </div>
+        </div>
+
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <a href="introducao.html">Voltar</a>
+</body>
+
+</html>
