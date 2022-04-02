@@ -11,7 +11,7 @@
 
     <h1>Dados do cadastro da pessoa</h1>
 
-    <form method="post" action="validar.html">
+    <form method="get" action="validar.html">
 
         <div>
             <label for="nome">Nome:</label>
@@ -24,7 +24,7 @@
         </div>
 
         <div>
-            <label>Genero:</label>
+            <br><label>Genero:</label>
 
             <div>
                 <input type="radio" name="genero" id="feminino" value="f">
@@ -49,21 +49,33 @@
         </div>
 
         <div>
+            <br>
             <label>Áreas de interesse</label>
+            <br>
 
             <div>
-                <input type="checkbox" name="web" id="web">
+                <input type="checkbox" name="area[0]" id="web">
                 <label>Sistemas WEB</label>
             </div>
 
             <div>
-                <input type="checkbox" name="db" id="db">
+                <input type="checkbox" name="area[1]" id="db">
                 <label>Banco de dados</label>
             </div>
 
             <div>
-                <input type="checkbox" name="redes" id="redes">
+                <input type="checkbox" name="area[2]" id="redes">
                 <label>Redes</label>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                    <br><label for="Nome de Usuario"></label>
+                    <input type="text" name="user" id="usuario" placeholder="Username" required>
+            <div>
+                <label for="Senha"></label>
+                <input type="password" name="psswrd" id="psswrd" placeholder="Password">
             </div>
         </div>
 
